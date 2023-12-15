@@ -1,0 +1,93 @@
+/* CSS for mobile devices */
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Styles for tablets */
+@media (min-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Styles for laptops/desktops */
+@media (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+#h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#test {
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc00;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid #333;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#show,
+#header {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color: #1a75d2;
+    margin-top: 10px;
+}
+
+.btns {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#area {
+    width: 80%;
+    margin-left: 10%;
+    padding: 8px; /* Increased padding for better appearance */
+    font-size: 1em;
+    border: 2px solid #1a75d2; /* Adding border for better visibility */
+    border-radius: 5px;
+    color: #333;
+    background-color: #fff; /* Setting background color to white */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: 2px solid #1a75d2;
+    border-radius: 5px;
+    background-color: #1a75d2;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #1a75d2;
+}
